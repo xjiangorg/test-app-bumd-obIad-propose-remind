@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-esjv
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:c4c3048c6cf64d2e9daa49de361066be
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:4f453e8c46216189cc49ec5d43834638cd73c4197c261a71e908cef7a879751c
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
